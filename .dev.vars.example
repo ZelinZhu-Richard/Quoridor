@@ -1,0 +1,3 @@
+# npm run dev supplies a development-only signing key if this file is absent.
+# Production must have a strong SESSION_SECRET: npx wrangler secret put SESSION_SECRET
+SESSION_SECRET=replace-with-a-random-development-secret
